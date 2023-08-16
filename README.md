@@ -57,4 +57,6 @@ The logs show that the web server is overloaded and unable to handle SYN request
 
 <h3> Recommendations to resolve this problem</h3>
 
-The advice I would give to this organization, in order to have a secure network without any DoS attack. Is to install a **Firewall** on the Web server (WFA). This will detect any illegitimate device on network traffic that is trying to disrupt a web server which will be blocked immediately. This is so that other users can experience the web browser without any interruptions or lag as they browse through the web page.  
+The steps for how I would resolve this issue is by contacting my boss and explaining what is causing the server to crash and how this can be fixed. There is a DoS attack occurring on the web server which is when an attacker sends a bunch of SYN requests to the web server. By doing this it will block any other incoming traffic and cause the server to crash.  
+
+The best solution to fix this problem is to integrate a **Firewall** on the web server so that it can detect any malicious device that is trying to send out a flood of SYN responses and block them from the attack. This is so that other users can experience the web browser without any interruptions or lag as they browse through the web page.  
